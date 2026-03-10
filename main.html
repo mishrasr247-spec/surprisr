@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<h1>💖 Happy Birthday My Milkbar 💖</h1>
+<body class="pink">
+
+<div id="fireworks"></div>
+
+<audio id="mainsong" autoplay loop>
+<source src="music/song2.mp3" type="audio/mpeg">
+</audio>
+
+<h1>💖 Happy Birthday 💖</h1>
+
+<p>🌸 Happy birthday to you madam 🎂❤️Sometimes I wonder how I got so lucky to have someone as beautiful and special as you in my life.
+Just thinking about you makes my heart smile, and if you were here right now 
+I would hold you close and give you the sweetest birthday gift. 🌸</p>
+<img src="images/photo1.jpeg">
+
+<p>💘 Your smile makes my day brighter,
+On your birthday I just want you to know something 🥰
+You are the person who makes my heart beat faster and my days feel brighter. I wish I could look into your eyes today,
+ hold your hands, and show you how much love I have for you. 💘</p>
+<img src="images/photo2.jpeg">
+
+<p>🌹 I hope this surprise makes you happy Happy Birthday to the girl who lives in my heart ❤️✨
+Your smile gives me butterflies, your voice feels like home, 🌹</p>
+<img src="images/photo3.jpeg">
+
+<p>✨ You deserve lots of happiness. You are not just someone I love, you are my favorite feeling 💕
+Every time I think about you, I imagine being close to you, 
+seeing your smile, and celebrating your birthday together with all the love in my heart. ✨</p>
+<img src="images/photo4.jpeg">
+
+<p>💌 Always stay happy. Happy Birthday my special one 🎉❤️
+I hope today you feel how deeply you are loved.
+ If I could, I would spend the whole day with you, making you smile,
+  holding you close, and filling your birthday with all the love you deserve. 💌</p>
+<img src="images/photo5.jpeg">
+
+
+
+<script src="script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/fireworks-js@2/dist/index.umd.js"></script>
+
+<script>
+
+const container=document.getElementById("fireworks");
+const fireworks=new Fireworks.default(container);
+
+fireworks.start();
+
+setTimeout(function(){
+fireworks.stop();
+},10000);
+
+</script>
+
+</body>
+</html>
